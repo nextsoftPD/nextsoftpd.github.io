@@ -1,0 +1,124 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #0088ff;
+}
+
+.logo {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.centered-title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.documents {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.document-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.file-link {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-weight: 500;
+}
+
+.file-link:hover {
+    color: #0066cc; 
+}
+
+.document-list li {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.document-list li:last-child {
+    border-bottom: none;
+}
+
+.download-btn {
+    background: #0088ff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.download-btn:hover {
+    background: #0066cc;
+}
+
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.team-table th {
+    background: #f8f9fa;
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 2px solid #0088ff;
+}
+
+.team-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.team-table tr:last-child td {
+    border-bottom: none;
+}
+
+.team-table tr:hover {
+    background: #f8f9fa;
+}
