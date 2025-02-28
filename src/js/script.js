@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/nextsoftPD/Documenti/main/assets/utils/directory_structure.xml')
+fetch('https://raw.githubusercontent.com/nextsoftPD/Documenti/main/directory_structure.xml')
             .then(response => response.text())
             .then(data => {
                 const parser = new DOMParser();
