@@ -1,0 +1,53 @@
+{
+  "RTB": {
+    "Lettera_di_Presentazione.pdf": "Lettera di Presentazione",
+    "Documentazione Interna": {
+      "Norme_di_Progetto_v1.0.0.pdf": "Norme di Progetto v1.0.0",
+      "Verbali": {
+        "2025-03-07.pdf": "7 Marzo 2025",
+        "2025-02-20.pdf": "20 Febbraio 2025",
+        "2025-02-08.pdf": "8 Febbraio 2025",
+        "2025-01-19.pdf": "19 Gennaio 2025",
+        "2025-01-10.pdf": "10 Gennaio 2025",
+        "2025-01-03.pdf": "3 Gennaio 2025",
+        "2024-12-18.pdf": "18 Dicembre 2024",
+        "2024-12-09.pdf": "9 Dicembre 2024",
+        "2024-11-24.pdf": "24 Novembre 2024",
+        "2024-11-15.pdf": "15 Novembre 2024"
+      }
+    },
+    "Documentazione Esterna": {
+      "Piano_di_Qualifica_v1.0.0.pdf": "Piano di Qualifica v1.0.0",
+      "Piano_di_Progetto_v1.0.0.pdf": "Piano di Progetto v1.0.0",
+      "Glossario_v1.0.0.pdf": "Glossario v1.0.0",
+      "Analisi_dei_Requisiti_v1.0.0.pdf": "Analisi dei Requisiti v1.0.0",
+      "Verbali": {
+        "2025-02-25_firmato.pdf": "25 Febbraio 2025 (Firmato)",
+        "2025-02-25.pdf": "25 Febbraio 2025",
+        "2024_12_24_firmato.pdf": "24 Dicembre 2024 (Firmato)",
+        "2024_11_25_firmato.pdf": "25 Novembre 2024 (Firmato)",
+        "2024-12-24.pdf": "24 Dicembre 2024",
+        "2024-11-25.pdf": "25 Novembre 2024"
+      }
+    }
+  },
+  "Candidatura": {
+    "Terza_Lettera_di_Presentazione.pdf": "Lettera di Presentazione",
+    "Valutazione-Capitolati_v1_2.pdf": "Valutazione Capitolati v1.2",
+    "Preventivo_costi_e_impegni_v1_3.pdf": "Preventivo Costi e Impegni v1.3",
+    "Verbali": {
+      "Interni": {
+        "2024-11-06.pdf": "6 Novembre 2024",
+        "2024-11-05.pdf": "5 Novembre 2024",
+        "2024-10-30.pdf": "30 Ottobre 2024",
+        "2024-10-26.pdf": "26 Ottobre 2024",
+        "2024-10-23.pdf": "23 Ottobre 2024",
+        "2024-10-16.pdf": "16 Ottobre 2024"
+      },
+      "Esterni": {
+        "2024-10-30_firmato.pdf": "30 Ottobre 2024 (Firmato)",
+        "2024-10-23_firmato.pdf": "23 Ottobre 2024 (Firmato)"
+      }
+    }
+  }
+} 

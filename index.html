@@ -3,80 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextSoft - Documenti</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>NextSoft - Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0088ff',
+                        secondary: '#004d8f',
+                        light: '#f0f9ff'
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="src/style/main.css">
 </head>
-<body class="bg-gray-100">
-    <header class="bg-white shadow border-b-2 border-[#0088ff]">
-        <div class="container mx-auto py-4 px-6 flex justify-between items-center">
-            <img src="src/img/logo.png" alt="Logo del sito" class="h-20 md:h-30">
-            <a href="https://github.com/nextsoftpd" target="_blank">
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="h-8 md:h-10">
-            </a>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <header class="bg-white shadow-md sticky top-0 z-10 border-b-4 border-primary">
+        <div class="container mx-auto py-3 px-4 md:px-6 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="src/img/logo.png" alt="NextSoft Logo" class="h-12 md:h-16">
+                <h1 class="text-xl md:text-2xl font-bold text-gray-800 hidden md:block">Documentation</h1>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="https://github.com/nextsoftpd" target="_blank" class="text-gray-700 hover:text-primary transition-colors">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+            </div>
         </div>
     </header>
-    <hr class="border-[#0088ff]">
     
-    <div class="container mx-auto py-8 px-4 md:px-6">
-        <h1 class="text-2xl md:text-4xl font-bold text-center mb-8">Documentazione</h1>
-        <section class="mb-8">
-            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
-                <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">RTB</h2>
-                <div class="documents" id="directory-structure-RTB">
-                    <!-- Content will be populated by JavaScript -->
+    <main class="container mx-auto py-8 px-4 md:px-6 flex-grow">
+        <div class="flex flex-col md:flex-row gap-6">
+            <aside class="md:w-1/4 lg:w-1/5">
+                <div class="bg-white shadow-md rounded-lg p-4 sticky top-24">
+                    <h2 class="text-xl font-bold mb-4 text-gray-800 border-b pb-2">Categories</h2>
+                    <nav id="document-nav" class="space-y-2">
+                    </nav>
+                </div>
+            </aside>
+            
+            <div class="md:w-3/4 lg:w-4/5">
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-6 text-gray-800 border-b pb-3">Documentation Repository</h2>
+                    
+                    <div class="mb-8">
+                        <div class="relative">
+                            <input type="text" id="search-docs" placeholder="Search documents..." 
+                                class="w-full py-2 px-4 pl-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                        </div>
+                    </div>
+                    
+                    <div id="document-tree" class="mb-8">
+                    </div>
+                </div>
+                
+                <div class="bg-white shadow-md rounded-lg p-6 mt-6">
+                    <h2 class="text-xl md:text-2xl font-bold mb-4 text-gray-800 border-b pb-2">Team Members</h2>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full">
+                            <thead class="bg-primary text-white">
+                                <tr>
+                                    <th class="py-3 px-4 text-left rounded-tl-lg">Name</th>
+                                    <th class="py-3 px-4 text-left rounded-tr-lg">ID</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b hover:bg-light">
+                                    <td class="py-3 px-4">Malik Giafar Mohamed</td>
+                                    <td class="py-3 px-4">2075543</td>
+                                </tr>
+                                <tr class="border-b hover:bg-light">
+                                    <td class="py-3 px-4">Marco Perazzolo</td>
+                                    <td class="py-3 px-4">1224817</td>
+                                </tr>
+                                <tr class="border-b hover:bg-light">
+                                    <td class="py-3 px-4">Ion Cainareanu</td>
+                                    <td class="py-3 px-4">2034295</td>
+                                </tr>
+                                <tr class="border-b hover:bg-light">
+                                    <td class="py-3 px-4">Stefano Baso</td>
+                                    <td class="py-3 px-4">1231758</td>
+                                </tr>
+                                <tr class="border-b hover:bg-light">
+                                    <td class="py-3 px-4">María Fuensanta Trigueros Hernandez</td>
+                                    <td class="py-3 px-4">2133487</td>
+                                </tr>
+                                <tr class="hover:bg-light">
+                                    <td class="py-3 px-4">Luca Parise</td>
+                                    <td class="py-3 px-4">2043677</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
-            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
-                <h2 class="text-2xl md:text-3xl font-bold text-center mb-2">Candidatura</h2>
-                <div class="documents" id="directory-structure-Candidatura">
-                    <!-- Content will be populated by JavaScript -->
-                </div>
-            </div>
-        </section>
-        
-        <section class="mb-8">
-            <h2 class="text-xl md:text-2xl font-bold mb-4">Membri del gruppo</h2>
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white shadow-md rounded-lg">
-                    <thead class="bg-[#0088ff] text-white">
-                        <tr>
-                            <th class="py-2 px-4 text-left">Nome Cognome</th>
-                            <th class="py-2 px-4 text-left">Matricola</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="border-b hover:bg-gray-100">
-                            <td class="py-2 px-4">Malik Giafar Mohamed</td>
-                            <td class="py-2 px-4">2075543</td>
-                        </tr>
-                        <tr class="border-b hover:bg-gray-100">
-                            <td class="py-2 px-4">Marco Perazzolo</td>
-                            <td class="py-2 px-4">1224817</td>
-                        </tr>
-                        <tr class="border-b hover:bg-gray-100">
-                            <td class="py-2 px-4">Ion Cainareanu</td>
-                            <td class="py-2 px-4">2034295</td>
-                        </tr>
-                        <tr class="border-b hover:bg-gray-100">
-                            <td class="py-2 px-4">Stefano Baso</td>
-                            <td class="py-2 px-4">1231758</td>
-                        </tr>
-                        <tr class="border-b hover:bg-gray-100">
-                            <td class="py-2 px-4">María Fuensanta Trigueros Hernandez</td>
-                            <td class="py-2 px-4">2133487</td>
-                        </tr>
-                        <tr class="hover:bg-gray-100">
-                            <td class="py-2 px-4">Luca Parise</td>
-                            <td class="py-2 px-4">2043677</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-    </div>
+        </div>
+    </main>
+    
+    <footer class="bg-white border-t mt-8 py-6">
+        <div class="container mx-auto px-4 md:px-6 text-center text-gray-600">
+            <p>© 2025 NextSoft. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="src/js/script.js"></script>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </body>
 </html>
