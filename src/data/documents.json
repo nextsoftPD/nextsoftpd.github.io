@@ -1,4 +1,29 @@
 {
+  "PB": {
+    "Lettera_di_Presentazione.pdf": "Lettera di Presentazione",
+    "Documentazione Esterna": {
+      "Analisi_dei_Requisiti_v2.0.0.pdf": "Analisi dei Requisiti v2.0.0",
+      "Piano_di_Progetto_v2.0.0.pdf": "Piano di Progetto v2.0.0",
+      "Piano_di_Qualifica_v2.0.0.pdf": "Piano di Qualifica v2.0.0",
+      "Specifica_Tecnica_v1.0.0.pdf": "Specifica Tecnica v1.0.0",
+      "Manuale_Utente_v1.0.0.pdf": "Manuale Utente v1.0.0",
+      "Glossario_v2.0.0.pdf": "Glossario v2.0.0",
+      "Verbali": {
+        "2025-05-06_firmato.pdf": "6 Maggio 2025 (Firmato)",
+        "2025_04_11_firmato.pdf": "11 Aprile 2025 (Firmato)"
+      }
+    },
+    "Documentazione Interna": {
+      "Norme_di_Progetto_v2.0.0.pdf": "Norme di Progetto v2.0.0",
+      "Verbali": {
+        "2025-05-13.pdf": "13 Maggio 2025",
+        "2025-04-28.pdf": "28 Aprile 2025",
+        "2025-04-19.pdf": "19 Aprile 2025",
+        "2025-04-05.pdf": "5 Aprile 2025",
+        "2025-03-30.pdf": "30 Marzo 2025"
+      }
+    }
+  },
   "RTB": {
     "Lettera_di_Presentazione.pdf": "Lettera di Presentazione",
     "Documentazione Interna": {
@@ -50,4 +75,4 @@
       }
     }
   }
-} 
+}

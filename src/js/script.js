@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const documentPaths = [
+        { path: 'documents/PB', name: 'PB' },
         { path: 'documents/RTB', name: 'RTB' },
-        { path: 'documents/Candidatura', name: 'Candidatura' }
+        { path: 'documents/Candidatura', name: 'Candidatura' },
     ];
 
     loadDocumentTitles().then(docTitles => {
